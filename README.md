@@ -12,4 +12,5 @@ To Run:
 6.	Load Iris data using load_iris(), proceeding to coding iris.info(), iris.shape, iris.isnull().sum(), iris.describe() and iris.head() to gain information from data such as null entries, data type and statistical insights. Later iris[iris.duplicated()] is coded to find duplicates and iris_species.value_counts() to see if data is well balanced, despite the duplicates.
 7.	Visual representation of the iris dataset is coded for using from sklearn.decomposition import PCA library, so we can see the different species designated according to sepal and petal sizes. 
 8.	Moving further, a correlation graph, scatter matrix and a cluster graph was constructe to gain insight on correlation between sepal and petal lengths and width.
-9.	
+9.	PCA and hyperparameter graphs were later constructed to show variance in the data and to try different values for n_neighbours respectively.
+10.	Lastly to show accuracy between predicted vs. true values of the iris species in regards to sepal and petal sizes a confusion matrix was coded for.
