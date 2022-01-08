@@ -11,4 +11,5 @@ To Run:
 5.	To run each cell in jupyter notebook press ctrl + enter.
 6.	Load Iris data using load_iris(), proceeding to coding iris.info(), iris.shape, iris.isnull().sum(), iris.describe() and iris.head() to gain information from data such as null entries, data type and statistical insights. Later iris[iris.duplicated()] is coded to find duplicates and iris_species.value_counts() to see if data is well balanced, despite the duplicates.
 7.	Visual representation of the iris dataset is coded for using from sklearn.decomposition import PCA library, so we can see the different species designated according to sepal and petal sizes. 
-8.	Moving further, a correlation graph, scatter matrix and a cluster 
+8.	Moving further, a correlation graph, scatter matrix and a cluster graph was constructe to gain insight on correlation between sepal and petal lengths and width.
+9.	
